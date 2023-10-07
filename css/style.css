@@ -32,6 +32,7 @@
   --Accent-3: #772d8b;
   --black-shade-2: #cccfd0;
   --Black: #021112;
+  --black-shade-3: #e0e2e3;
 }
 h2 {
   color: var(--Black);
@@ -206,7 +207,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .second-section__radio-button__mini-container {
@@ -405,4 +405,195 @@ p {
 
   border-radius: 10px;
   align-items: center;
+}
+
+.fourth-section {
+  background-image: url(../assets/Vector\ 10.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 150px 150px;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fourth-section h2 {
+  max-width: 657px;
+}
+
+.fourth-section__first-container__p {
+  margin-top: 41px;
+  margin-bottom: 46px;
+  max-width: 568px;
+}
+.fourth-section__price-block {
+  display: flex;
+  gap: 45px;
+}
+.fourth-section__price-block h3 {
+  color: var(--Black);
+
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+}
+.fourth-section__second-container {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 8px 27px 69px 0px rgba(0, 0, 0, 0.08);
+  position: relative;
+  padding: 40px 41px 30px 41px;
+  max-width: 583px;
+  transform: translateY(-45px);
+}
+
+.fourth-section__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 36px;
+}
+
+.save-block {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  position: absolute;
+  top: 400px;
+  left: 458px;
+}
+
+.fourth-section__mini-image-container {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  /* margin-top: 34px; */
+  margin-bottom: 20px;
+}
+.fourth-section__mini-image-container p {
+  color: var(--Black);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transform: translateX(-90px);
+}
+
+.fourth-section__mini-image-container img:nth-child(2) {
+  transform: translateX(-30px);
+}
+.fourth-section__mini-image-container img:nth-child(3) {
+  transform: translateX(-60px);
+}
+.fourth-section__mini-image-container img:nth-child(4) {
+  transform: translateX(-90px);
+}
+
+.fourth-section__user-feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.fourth-section__user-feedback div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.fourth-section__hous-container {
+  position: absolute;
+  padding: 33px 27px;
+  background-color: white;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 577px;
+  left: -154px;
+
+  z-index: 100;
+}
+
+.fourth-section__mini-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.fourth-section__hous-container__text h3 {
+  color: var(--Black);
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fourth-section__hous-container__text p {
+  color: var(--black-shade-2);
+  text-align: center;
+
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 6px 0 26px 0;
+}
+
+.fourth-section__hous-container__text-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 26px;
+}
+.fourth-section__hous-container__text-second span {
+  font-weight: 600;
+}
+
+.fourth-section__hous-container__buttons_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+.fourth-section__hous-container__buttons_container button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: none;
+  outline: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+}
+.fourth-section__hous-container__buttons_container button:nth-child(1) {
+  background-color: var(--Accent-3);
+}
+.fourth-section__hous-container__buttons_container button:nth-child(1) p {
+  color: #fff;
+
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fourth-section__hous-container__buttons_container button:nth-child(2) {
+  background-color: white;
+  border: 1px solid var(--black-shade-3);
+}
+.fourth-section__hous-container__buttons_container button:nth-child(2) p {
+  color: var(--black-shade);
+
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
